@@ -1,0 +1,24 @@
+
+<!-- Testimonials -->
+<section class="w3-agile-test-monials py-5">
+  <div class="container client-review-head">
+    <h3 class="heading text-center text-uppercase mb-5"> Testimonials </h3>
+    <div class="sreen-gallery-cursual">
+
+
+      <!-- If images array is dynamically changing pass this array to [items] input -->
+      <!-- classes to be attached along with owl-carousel class -->
+
+
+      <owl-carousel   [options]="{items: 3, dots: false, navigation: false}" [items]="settings.get('testimonies')" [carouselClasses]="['owl-theme', 'row', 'sliding']" style="color: #ffffff">
+      <div class="item" *ngFor="let testimony of settings.get('testimonies');">
+        <div class="thumbnail-image">
+          {{ testimony.detail }}
+        </div>
+      </div>
+      </owl-carousel>
+      <!--//screen-gallery-->
+    </div>
+  </div>
+</section>
+<!-- //Testimonials -->

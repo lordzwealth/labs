@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  padding: 12 0.2 12 0.2;
+  position: relative;
+  letter-spacing: 2px;
+  text-transform: uppercase !important;
+  color: purple;
+}
+
+.mb-5 {
+  margin-bottom: 3rem;
+}
